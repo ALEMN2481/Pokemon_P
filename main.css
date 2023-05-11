@@ -125,13 +125,50 @@ main{
 
 }
 
+
+.pokemon-imagen{
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
 .pokemon-imagen img{
     width: 100%;
     max-width: 6rem;
 
 }
 
+.pokemon-info{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-inline: 1rem;
+    text-align: center;
+    align-items: center;
+}
 
+.nombre-contenedor{
+display: flex;
+align-items: center;
+column-gap: .5rem;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.pokemon-id{
+
+    background-color: var(--clr-gray);
+    padding: .25rem .5rem;
+    border-radius: 100vmax;
+    font-weight: 500;
+
+
+}
+
+.pokemon-nombre {
+    font-size: 1.4rem;
+}
 
 .normal {
     background-color: var(--type-normal);
