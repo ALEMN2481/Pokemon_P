@@ -47,7 +47,7 @@ button {
 
 
 
-/* Aquí comienzan los colores de botones según tipo */
+
 .normal {
     background-color: var(--type-normal);
     color: var(--clr-black);
